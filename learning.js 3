@@ -1,0 +1,27 @@
+{ let d = new Date("1/10/2022"
+   }
+
+
+
+   Random rnd = new Random();
+   int nums = rnd.Next(1, 1000);
+   for (int i = 1; <= 1; i++)
+   {
+
+    
+   }
+
+   
+
+   let a = new Array();
+
+   public class Main {
+  public static void main(String[] args) {
+    ArrayList<String> () = new ArrayList<String>();
+    ().add(" ");
+    ().add(" ");
+    ().add(" ");
+    ().add(" ");
+    System.out.println();
+  }
+}
