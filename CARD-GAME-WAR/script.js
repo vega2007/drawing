@@ -52,6 +52,14 @@ class Card {
       return this.suit === '♣' || this.suit === '♠' ? 'black' : 'red'
   }
 
+function dealHand() {
+    return computerCard
+}
+
+function dealHand() {
+    return playerCard
+}
+
   getHTML() {
       const cardDiv = document.createElement("div")
       cardDiv.InnerText = this.suit
