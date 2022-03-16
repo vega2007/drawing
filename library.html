@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Hello!</h1>
+      <p>Is cereal soup?</p>
+
+      <button @click="show = 'yes'">Yes</button>
+      <button @click="show = 'no'">No</button>
+
+      <div class="answerArea" v-if="show === 'yes'">
+        <p>Ew, you said yes. Why would you call cereal soup?</p>
+      </div>
+      <div class="answerArea" v-if="show === 'no'">
+        <p>You said no. Exactly, who would call cereal soup?</p>
+      </div>
+    </div>
+    <script src="lib/vue.js"></script>
+  </body>
+</html>
